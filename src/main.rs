@@ -46,7 +46,7 @@ fn main() {
     let _addr = server.start();
 
     // Init client actor
-    let peer_addr = "127.0.0.1:50000".parse().unwrap();
+    let peer_addr = "127.0.0.1:12345".parse().unwrap();
     let client = Client::new(peer_addr);
 
     // Start client actor

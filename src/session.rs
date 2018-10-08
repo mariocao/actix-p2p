@@ -32,6 +32,7 @@ impl Actor for Session {
     type Context = actix::Context<Self>;
 
     fn started(&mut self, _ctx: &mut Self::Context) {
+        println!("Session started!");
     }
 }
 
